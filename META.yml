@@ -24,9 +24,10 @@ no_index:
 requires:
   Apache2::ModSSL: 0
   Apache2::TrapSubRequest: 0
+  Encode::Detect: 0
   HTML::Detergent: 0
   mod_perl2: 0
   perl: 5.10.0
 resources:
   license: http://apache.org/licenses/LICENSE-2.0
-version: 0.04
+version: 0.07

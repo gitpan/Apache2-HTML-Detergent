@@ -1,10 +1,11 @@
 {
    "abstract" : "Clean the gunk off HTML documents on the fly",
    "author" : [
-      "Dorian Taylor, C<< <dorian at cpan.org> >>, Dorian Taylor <dorian@cpan.org>"
+      "Dorian Taylor, C<< <dorian at cpan.org> >>",
+      "Dorian Taylor <dorian@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "apache_2_0"
    ],
@@ -15,8 +16,8 @@
    "name" : "Apache2-HTML-Detergent",
    "no_index" : {
       "directory" : [
-         "t",
-         "inc"
+         "inc",
+         "t"
       ]
    },
    "prereqs" : {
@@ -36,6 +37,7 @@
          "requires" : {
             "Apache2::ModSSL" : "0",
             "Apache2::TrapSubRequest" : "0",
+            "Encode::Detect" : "0",
             "HTML::Detergent" : "0",
             "mod_perl2" : "0",
             "perl" : "5.010"
@@ -43,5 +45,10 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.04"
+   "resources" : {
+      "license" : [
+         "http://apache.org/licenses/LICENSE-2.0"
+      ]
+   },
+   "version" : "0.06"
 }
